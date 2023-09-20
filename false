@@ -1,0 +1,2 @@
+      invoke  active_record
+      create    db/migrate/20230912081749_add_published_to_articles.rb
