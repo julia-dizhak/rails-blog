@@ -2,6 +2,7 @@
 
 We're going to build a Blog with Ruby on Rails.
 
+
 ## Blog
 
 *  User can see all blogs
@@ -9,6 +10,18 @@ We're going to build a Blog with Ruby on Rails.
 *  Validation present when user post a new blog
 *  Edit a post
 *  Delete (or destroy) a post
+  
+*  Authentication with devise
+```
+/users/sign_in
+/users/sign_up
+/users/edit
+```
+
+## Rails commands
+
+`rails g`
+`rails g devise:install`
 
 ## Technologies
 
