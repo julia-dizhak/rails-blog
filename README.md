@@ -8,9 +8,9 @@ We're going to build a Blog with Ruby on Rails.
 *  User can create (add) a new blog with handling form submissions using strong parameters
 *  Validation present when user post a new blog
 *  Edit a post
-*  Delete a post
+*  Delete (or destroy) a post
 
-## Tech
+## Technologies
 
 Things covered:
 
@@ -30,7 +30,6 @@ Things covered:
 
 * Deployment instructions
 
-* ...
 
 ## How to run project
 
