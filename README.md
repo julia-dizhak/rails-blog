@@ -1,6 +1,6 @@
-# Rails Blog
+# Build a Blog with Rail
 
-Blog build with Ruby on Rails.
+Blog build with [Ruby on Rails](https://guides.rubyonrails.org/getting_started.html).
 
 
 ## How to run a blog
@@ -25,7 +25,7 @@ application up and running locally.
   
 *  Delete/destroy a post
   
-*  Authentication with `devise``
+*  Authentication with `devise`
 ```
 /users/sign_in
 /users/sign_up

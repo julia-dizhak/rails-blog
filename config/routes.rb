@@ -2,7 +2,6 @@ Rails.application.routes.draw do
   devise_for :users
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
-  resources :articles
   # get "/articles/new", to: "articles#new"
   # get "/articles/:id", to: "articles#show"
   # patch "/articles/:id", to: "articles#update"
@@ -13,6 +12,11 @@ Rails.application.routes.draw do
 
   # get "/articles", to: "articles#index"
   # Defines the root path route ("/")
+
+  resources :articles do
+    resources :comments
+  end
+  
   root "articles#index"
 
 end
