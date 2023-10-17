@@ -1,0 +1,30 @@
+<h1>Say#hello</h1>
+<p>Find me in app/views/say/hello.html.erb</p>
+
+<div>
+    <p>
+        It is now <%= @time %> 
+    </p>
+    Time in one hour: <%= 1.hour.from_now.localtime %>
+    <p><%= "cow" + "boy" %></p>
+    <p>add <%= 1+2 %></p>
+</div>
+
+<div>
+    Files
+    </br>
+    A call to the following Ruby method returns a list of all the files in the current directory:
+    <ul>
+    <% @files.each do |file| %> 
+       <li> 
+            file name is: <%= file %> 
+        </li>
+    <% end %>
+    </ul>
+</div>
+
+
+<p>
+    Time to say
+    <%= link_to "Goodbye", say_goodbye_path %>! 
+</p>
