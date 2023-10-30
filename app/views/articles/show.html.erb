@@ -14,6 +14,19 @@
   </li>
 </ul>
 
+<h2>Comments:</h2>
+<% @article.comments.each do |comment| %>
+  <div>
+    <p><strong>Commenter:</strong></p>
+    <div><%= comment.commenter %></div>
+  </div>
+
+  <div>
+    <p><strong>Comment:</strong></p>
+    <div><%= comment.body %></div>
+  </div>
+<% end %>
+
 <h2>Add a comment:</h2>
 <%= form_with model: [@article, @article.comments.build] do |form| %>
   <div>
