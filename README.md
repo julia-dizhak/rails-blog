@@ -5,8 +5,7 @@ Blog build with [Ruby on Rails](https://guides.rubyonrails.org/getting_started.h
 
 ## How to run a blog
 
-Below steps are necessary to get the
-application up and running locally.
+Below steps are necessary to get the app up and running locally:
 
 * install all dependencies
 * run in console `rails s`
@@ -15,52 +14,34 @@ application up and running locally.
 
 ## Blog features
 
-*  User can see all blogs
-  
-*  User can create (add) a new blog with handling form submissions using strong parameters
-  
-*  Validation present when user post a new blog
-  
-*  Edit a post
-  
-*  Delete/destroy a post
-  
-*  Authentication with `devise`
+*  User can see all article and comments
+*  User can create/add a new article with handling form submissions using strong parameters
+*  User can add comments for the article
+*  Validation present when user post a new article and some fields are required
+*  User can delete/destroy an article
+*  Authentication implemented with `devise`
 ```
 /users/sign_in
 /users/sign_up
 /users/edit
 ```
 
+
 ## Things covered:
 
 * Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+* System dependencies and Configuration
+* Database initialization and creation
+* ? How to run the test suite
+* ? Services (job queues, cache servers, search engines, etc.)
+* ? Deployment instructions 
 
 
-## blog details 
+## Blog technical details: Rails
 
 * App has 2 models: Articles and Comments
-* ...
-
-
-## Rails 
-
-* Active Record 
-* Active Record Associations
+* Active Record and Active Record Associations
+* Rendering partial connection
 
 
 ## Rails style guide
@@ -73,4 +54,5 @@ application up and running locally.
 
 ## Todo
 
-* ...
+* Add link for all articles
+* 
