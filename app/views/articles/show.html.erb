@@ -17,21 +17,10 @@
 <h2>Comments:</h2>
 <%# As the render method iterates over the @article.comments collection %>
 <%# <% @article.comments.each do |comment| ... %>
-<% render @article.comments %>
+<ul>
+  <%= render @article.comments %>
+</ul>
 
-<h2>Add a comment:</h2>
-<%= form_with model: [@article, @article.comments.build] do |form| %>
-  <div>
-    <%= form.label :commenter %><br>
-    <%= form.text_field :commenter %>
-  </div>
 
-  <div>
-    <%= form.label :body %><br>
-    <%= form.text_field :body %>
-  </div>
-
-  <div>
-    <%= form.submit %>
-  </div>
-<% end %>
+<h2>Add a comment</h2>
+<%= render 'comments/form' %>

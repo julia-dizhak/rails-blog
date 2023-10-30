@@ -1,6 +1,6 @@
 # Build a Blog with Rail
 
-Blog build with [Ruby on Rails](https://guides.rubyonrails.org/getting_started.html).
+Blog build with [Ruby on Rails](https://guides.rubyonrails.org/getting_started.html)
 #rails #ruby #rubyonrails
 
 
