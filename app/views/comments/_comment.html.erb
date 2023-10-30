@@ -1,11 +1,13 @@
-<li>
-  <div>
-    <strong>Commenter:</strong>
-    <p><%= comment.commenter %></p>
-  </div>
+<% unless comment.archived? %>
+    <li>
+    <div>
+        <strong>Commenter:</strong>
+        <p><%= comment.commenter %></p>
+    </div>
 
-  <div>
-    <strong>Comment:</strong>
-    <p><%= comment.body %></p>
-  </div>
-</li>
+    <div>
+        <strong>Comment:</strong>
+        <p><%= comment.body %></p>
+    </div>
+    </li>
+<% end %>

@@ -8,7 +8,8 @@ class CommentsController < ApplicationController
 
     private
         def comment_params
-            params.require(:comment).permit(:commenter, :body)        
+            # We also have to permit the :status key as part of the strong parameter
+            params.require(:comment).permit(:commenter, :body, :status)        
         end
         
 end
