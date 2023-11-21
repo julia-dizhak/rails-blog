@@ -1,6 +1,7 @@
 # Build a Blog with Rails
 
 Demo Blog build with [Ruby on Rails](https://guides.rubyonrails.org/getting_started.html)
+
 #rails #ruby #rubyonrails #demo #buildblogwithrails2023
 
 
