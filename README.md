@@ -66,5 +66,5 @@ Below steps are necessary to get the app up and running locally:
 ## Todo
 
 * Add link for all articles
-* Can't add a new article (sth with status?)
-* after edit the list is not updated
+* ?Can't add a new article (sth with status?)
+* ?after edit the list is not updated
